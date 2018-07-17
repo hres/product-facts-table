@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
             wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-    <title>Canada.ca theme - Canada.ca</title>
+    <title>Facts Table</title>
     <meta content="width=device-width,initial-scale=1" name="viewport">
     <!-- Meta data -->
     <meta name="description"
@@ -123,13 +123,13 @@
 </header>
 <main role="main" property="mainContentOfPage" class="container">
 
-    <h1 property="name" id="wb-cont">Applying Flexibilities to Natural Health Products (NHPs)</h1>
+    <h1 property="name" id="wb-cont">Applying Flexibilities to Non-Prescription Drugs (NPDs)</h1>
     <section>
         <div class="wb-tabs">
             <div class="tabpanels">
-                <details id="details-panel0">
-                    <summary>Background</summary>
 
+                <details id="details-panel0" open="open">
+                    <summary>Background</summary>
                     <div class="content">
                         <h2>Background</h2>
                         <p>From 2016 to 2018, Health Canada conducted consultations on a proposal to modernize the
@@ -205,8 +205,8 @@
                     <summary>Full PFT</summary>
                     <div class="content">
                         <div>
-                            <img src="Full PFT Details.gif"/>
-                            <p class="right"><a href="https://product-facts-table.hres.ca/#details-panel1">Proceed to
+                            <img src="Full PFT.gif" alt="Full Facts Table"/>
+                            <p class="right"><a class="wb-tabs-ext" href="#details-panel1">Proceed to
                                 Flexibility Level 1</a></p>
                         </div>
                     </div>
@@ -232,9 +232,37 @@
                         <br/>
                         <br/>
                         <div>
-                            <img src="Level 1 PFT Details.gif" alt="Level 12 Products Facts Table"/>
-                            <p class="right"><a href="https://product-facts-table.hres.ca/#details-panel2">Proceed to
+                            <img src="Level 1 PFT.gif"/>
+                            <p class="right"><a class="wb-tabs-ext" href="#details-panel2">Proceed to
                                 Flexibility Level 2</a></p>
+                        </div>
+                    </div>
+                </details>
+                <details id="details-panel2">
+                    <summary>Level 2</summary>
+                    <div class="content">
+                        <div class="information">
+                            <h2>Level 2:</h2>
+                            <ul>
+                                <li>Use of condensed font</li>
+                            </ul>
+                            <p>Level 2 flexibility not shown below:</p>
+                            <ul>
+                                <li>Use of scaling (up to 90%)</li>
+                            </ul>
+                        </div>
+                        <br/>
+                        <br/>
+                        <div>
+                            <div class="alert alert-info">
+                                <h2>Implementation Note</h2>
+                                <p>You must implement all Level 1 flexibilities before implementing Level 2 flexibilities </p>
+                            </div>
+                            <div>
+                                <img src="Level 2 PFT.gif"/>
+                                <p class="right"><a class="wb-tabs-ext" href="#details-panel3">Proceed
+                                    to Flexibility Level 3</a></p>
+                            </div>
                         </div>
                     </div>
                 </details>
@@ -262,9 +290,13 @@
                         <br/>
                         <br/>
                         <div>
+                            <div class="alert alert-info">
+                                <h2>Implementation Note</h2>
+                                <p>You must implement all Level 2 flexibilities before implementing Level 3 flexibilities </p>
+                            </div>
                             <div>
-                                <img src="Level 3 PFT Details.gif"/>
-                                <p class="right"><a href="https://product-facts-table.hres.ca/#details-panel4">Proceed
+                                <img src="Level 3 PFT.gif"/>
+                                <p class="right"><a class="wb-tabs-ext" href="#details-panel4">Proceed
                                     to Flexibility Level 4</a></p>
                             </div>
                         </div>
@@ -290,40 +322,20 @@
                         <br/>
                         <br/>
                         <div>
+                            <div class="alert alert-info">
+                                <h2>Implementation Note</h2>
+                                <p>You must implement all Level 3 flexibilities before implementing Level 4 flexibilities </p>
+                            </div>
                             <div>
-                                <img src="Level 4 PFT Details.gif"/>
-                               <!-- <p class="right"><a href="https://product-facts-table.hres.ca/#details-panel5">Proceed
+                                <img src="Level 4 PFT.gif"/>
+                                <!--<p class="right"><a href="https://product-facts-table.hres.ca/#details-panel5">Proceed
                                     to Flexibility Level 5</a></p>-->
                             </div>
                         </div>
                     </div>
                 </details>
             </div>
-          <!--  <div class="tabpanels">
-                <details id="details-panel5">
-                    <summary>Level 5</summary>
-                    <div class="content">
-                        <div class="information">
-                            <h2>Level 5:</h2>
-                            <ul>
-                                <li>All "Warnings" may be moved to a tag affixed to the product, if they do not fit on
-                                    the inner label (and there is no outer label). Subheading must be maintained in PFT
-                                    with note directing consumer to where the information is located.
-                                    <br/>&nbsp;&nbsp;&nbsp;» URL that contains full PFT required.
-                            </ul>
-                        </div>
-                        <br/>
-                        <br/>
-                        <div>
-                            <img src="Level 5 PFT.gif"/>
-                        </div>
-                    </div>
-            </div>-->
-
         </div>
-        </div>
-        </div>
-
     </section>
     <div class="pagedetails">
         <dl id="wb-dtmd">
@@ -422,55 +434,54 @@
                  data-wb-share='{"lnkClass": "btn btn-default btn-block"}'></div>
         </div>
     </div>
-    <footer role="contentinfo" id="wb-info">
-        <nav role="navigation" class="container wb-navcurr">
-            <h2 class="wb-inv">About government</h2>
-            <ul class="list-unstyled colcount-sm-2 colcount-md-3">
-                <li><a href="https://www.canada.ca/en/contact.html">Contact us</a></li>
-                <li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
-                <li><a href="https://www.canada.ca/en/government/publicservice.html">Public service and military</a>
-                </li>
-                <li><a href="https://www.canada.ca/en/news.html">News</a></li>
-                <li><a href="https://www.canada.ca/en/government/system/laws.html">Treaties, laws and regulations</a>
-                </li>
-                <li><a href="https://www.canada.ca/en/transparency/reporting.html">Government-wide reporting</a></li>
-                <li><a href="http://pm.gc.ca/eng">Prime Minister</a></li>
-                <li><a href="https://www.canada.ca/en/government/system.html">How government works</a></li>
-                <li><a href="http://open.canada.ca/en/">Open government</a></li>
-            </ul>
-        </nav>
-        <div class="brand">
-            <div class="container">
-                <div class="row">
-                    <nav class="col-md-9 col-lg-10 ftr-urlt-lnk">
-                        <h2 class="wb-inv">About this site</h2>
-                        <ul>
-                            <li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
-                            <li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
-                            <li><a href="https://www1.canada.ca/en/newsite.html">About Canada.ca</a></li>
-                            <li><a href="https://www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
-                            <li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
-                        </ul>
-                    </nav>
-                    <div class="col-xs-6 visible-sm visible-xs tofpg">
-                        <a href="#wb-cont">Top of Page <span class="glyphicon glyphicon-chevron-up"></span></a>
-                    </div>
-                    <div class="col-xs-6 col-md-3 col-lg-2 text-right">
-                        <img src="./GCWeb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada">
-                    </div>
+</main>
+<footer role="contentinfo" id="wb-info">
+    <nav role="navigation" class="container wb-navcurr">
+        <h2 class="wb-inv">About government</h2>
+        <ul class="list-unstyled colcount-sm-2 colcount-md-3">
+            <li><a href="https://www.canada.ca/en/contact.html">Contact us</a></li>
+            <li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
+            <li><a href="https://www.canada.ca/en/government/publicservice.html">Public service and military</a></li>
+            <li><a href="https://www.canada.ca/en/news.html">News</a></li>
+            <li><a href="https://www.canada.ca/en/government/system/laws.html">Treaties, laws and regulations</a></li>
+            <li><a href="https://www.canada.ca/en/transparency/reporting.html">Government-wide reporting</a></li>
+            <li><a href="http://pm.gc.ca/eng">Prime Minister</a></li>
+            <li><a href="https://www.canada.ca/en/government/system.html">How government works</a></li>
+            <li><a href="http://open.canada.ca/en/">Open government</a></li>
+        </ul>
+    </nav>
+    <div class="brand">
+        <div class="container">
+            <div class="row">
+                <nav class="col-md-9 col-lg-10 ftr-urlt-lnk">
+                    <h2 class="wb-inv">About this site</h2>
+                    <ul>
+                        <li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
+                        <li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
+                        <li><a href="https://www1.canada.ca/en/newsite.html">About Canada.ca</a></li>
+                        <li><a href="https://www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
+                        <li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
+                    </ul>
+                </nav>
+                <div class="col-xs-6 visible-sm visible-xs tofpg">
+                    <a href="#wb-cont">Top of Page <span class="glyphicon glyphicon-chevron-up"></span></a>
+                </div>
+                <div class="col-xs-6 col-md-3 col-lg-2 text-right">
+                    <img src="./GCWeb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada">
                 </div>
             </div>
         </div>
-    </footer>
-    <!--[if gte IE 9 | !IE ]><!-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-    <script src="./wet-boew/js/wet-boew.min.js"></script>
-    <!--<![endif]-->
-    <!--[if lt IE 9]>
-    <script src="./wet-boew/js/ie8-wet-boew2.min.js"></script>
+    </div>
+</footer>
+<!--[if gte IE 9 | !IE ]><!-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<script src="./wet-boew/js/wet-boew.min.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script src="./wet-boew/js/ie8-wet-boew2.min.js"></script>
 
-    <![endif]-->
-    <script src="./GCWeb/js/theme.min.js"></script>
+<![endif]-->
+<script src="./GCWeb/js/theme.min.js"></script>
 </body>
 <style>
     /*Info box above table*/
